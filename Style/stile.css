@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+}
+
+.imgFundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+/*
+    top: 0; 
+    right: 0; 
+    width: 100px; 
+    height: auto;
+*/
+
+.caixaFAQ{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px 25px 10px 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.caixaFAQ h1{
+    color: hsl(292, 42%, 14%);
+    font-size: 50px;
+    display: flex;
+    place-items: center;
+}
+
+.caixaFAQ h1 img
+{
+    padding-right: 15px;
+}
+
+.caixaFAQ h3{
+    color: hsl(292, 42%, 14%);
+    font-size: 16px;
+    display: flex;
+    place-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.caixaFAQ h3 img{
+    margin-left: auto;
+}
+
+.caixaFAQ h3:hover{
+    color: hsl(292, 16%, 49%);
+}
+
+.caixaFAQ p{
+    color: hsl(279, 12%, 72%);
+    font-size: 16px;
+}
