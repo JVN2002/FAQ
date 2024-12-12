@@ -43,7 +43,7 @@ body{
     padding-right: 15px;
 }
 
-.caixaFAQ h3{
+.caixaFAQ .boxPerguntas h3{
     color: hsl(292, 42%, 14%);
     font-size: 16px;
     display: flex;
@@ -53,17 +53,16 @@ body{
 }
 
 .caixaFAQ h3 img{
-    /*margin-left: auto;*/
     position: fixed;
     left: 490px;
 }
 
-.caixaFAQ h3 img#btnMenos{
+.caixaFAQ .boxPerguntas h3 img.btnMenos{
     width: 0%;
     overflow: hidden;
 }
 
-.caixaFAQ h3 img#btnMenos.revelaMenos{
+.caixaFAQ .boxPerguntas h3 img.btnMenos.revelaMenos{
     width: 5.5%;
 }
 
