@@ -53,7 +53,31 @@ body{
 }
 
 .caixaFAQ h3 img{
-    margin-left: auto;
+    /*margin-left: auto;*/
+    position: fixed;
+    left: 490px;
+}
+
+.caixaFAQ h3 img#btnMenos{
+    width: 0%;
+    overflow: hidden;
+}
+
+.caixaFAQ h3 img#btnMenos.revelaMenos{
+    width: 5.5%;
+}
+
+
+.caixaFAQ .Pergunta p{
+    width: 0%;
+    font-size: 1px;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.caixaFAQ .Pergunta p.abrir-pergunta{
+    width: 100%;
+    font-size: 16px;
 }
 
 .caixaFAQ h3:hover{
