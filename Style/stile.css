@@ -87,3 +87,21 @@ body{
     color: hsl(279, 12%, 72%);
     font-size: 16px;
 }
+
+@media screen and (max-width: 1020px) {
+    .caixaFAQ{
+        width: 350px;
+    }
+
+    .caixaFAQ h3 img{
+        left: 360px;
+    }
+
+    .caixaFAQ h3{
+        width: 300px;
+    }
+
+    .caixaFAQ .boxPerguntas h3 img.btnMenos.revelaMenos{
+        width: 7.5%;
+    }
+}
